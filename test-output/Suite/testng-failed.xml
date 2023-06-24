@@ -9,21 +9,10 @@
       <class name="tests.LoginTest">
         <methods>
           <include name="openApplication"/>
-          <include name="Login" invocation-numbers="0"/>
+          <include name="Login" invocation-numbers="1 2 3"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.LoginTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
-  <test thread-count="5" parallel="tests" name="TransactionAmountSortingTest(failed)">
-    <classes>
-      <class name="tests.TransactionAmountSortingTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="openApplication"/>
-          <include name="AmountSortingTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.TransactionAmountSortingTest -->
-    </classes>
-  </test> <!-- TransactionAmountSortingTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

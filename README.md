@@ -2,6 +2,10 @@
 
 QAwingify is a test automation project for Wingify. It provides automated tests for the Wingify application, covering various functionalities and scenarios.
 
+##Report Hosted
+[View Test Report](reports/extentreport.html)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
